@@ -1,0 +1,24 @@
+body {
+  background-color: #D8F2FD;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 6px;
+  border-color: grey;
+  width: 8%;
+}
+tr.contact-form:hover {
+  background-color: #BFC9CA;}
+ul {
+  list-style-type: none;
+}
+h1 {
+  color: #66BFBF;
+}
+h3 {
+  color: #66BFBF;
+}
+a{
+  text-decoration: none;
+}
