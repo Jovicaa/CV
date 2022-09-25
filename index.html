@@ -3,49 +3,77 @@
 <html lang="en" dir="ltr">
 
 <head>
+
+
   <meta charset="utf-8"> <!-- Znaci da pretrazivac prilikom otvaranja sajta cijeli sadrzaj prikazuje kao da je utf-8 encoded -->
   <title>🌟Present form site🌟</title>
-<link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css"><!-- Link za eksterni css fajl -->
+
+
 </head>
 
+
 <body>
-  <table width="100%" cellspacing="10">
-    <tr>
-      <td width="15%"> <img src="image/jovicaprofile.png" height="190" alt="Profile picture Jovica"></td>
-      <td>
-        <h1>Jovica Lekic</h1>
-        <p><em>Student na <strong>Elektrotehnicki Fakultet Univerziteta u Banjoj Luci</strong></em></p>
-        <p>Nov u vodama programiranja i veoma motivisan.</p>
-      </td>
 
-      <td class="contact-form" width="12%"><table>
-        <tr class="contact-form">
-        <!--  <td align="right"> </td>-->
-          <td align="left"><strong> <a href="previouswork.html"> 🔨Previous Work </a> </strong></td>
-        </tr>
-          <tr class="contact-form">
-          <!--<td align="right"> </td>-->
-          <td align="left"> <strong> <a href="hobbies.html"> 🚴 ‍My Hobbies </a> </strong></td>
-        </tr>
-        <tr class="contact-form">
-          <!--  <td align="right"></td>-->
-          <td align="left"><strong> <a href="contact.html"> ☎  Contact me </a> </strong></td>
-        </tr>
-      </table></td>
-    </tr>
-  </table>
-  <div>
-    <hr>
-
-    <h3>Edukacija</h3>
+  <div class="navibar">
     <ul>
-      <li><em>Univerzitet u Banjoj Luci- Elektrotehnicki Fakultet</em> <strong>Softversko inzenjerstvo.</strong></li>
-      <li><em>Udemy-</em> <strong>"The Complete 2022 Web Development Bootcamp."</strong></li>
-      <li><em>JU Medicinska Skola Banja Luka</em> <strong>Medicinski tehnicar.</strong></li>
+      <li> <a href="https://jovicaa.github.io/CV/"></a>Home</li>
+      <li> <a href="https://jovicaa.github.io/CV/previouswork.html">Previous</a> </li>
+      <li> <a href="https://jovicaa.github.io/CV/hobbies.html"></a>Hobbies</li>
+      <li> <a href="https://jovicaa.github.io/CV/contact.html"></a>Contact</li>
     </ul>
-    <hr>
 
-    <h3>Previous work experience.</h3>
+  </div>
+  <div class="headingBox">
+    <table  class="sticky" width="100%" cellspacing="10">
+      <tr>
+        <td width="15%"> <img src="image/jovicaprofile.png" height="190" alt="Profile picture Jovica"></td>
+        <td>
+          <h1>Jovica Lekic</h1>
+          <p><em>Student na <strong>Elektrotehnicki Fakultet Univerziteta u Banjoj Luci</strong></em></p>
+          <p>Nov u vodama programiranja i veoma motivisan.</p>
+        </td>
+
+        <td width="12%" align="right">
+          <table>
+            <tr class="contact-form">
+              <!--  <td align="right"> </td>-->
+              <td align="left"><strong> <a href="previouswork.html"> 🔨Previous Work </a> </strong></td>
+            </tr>
+            <tr class="contact-form">
+              <!--<td align="right"> </td>-->
+              <td align="left"> <strong> <a href="hobbies.html"> 🚴 ‍My Hobbies </a> </strong></td>
+            </tr>
+            <tr class="contact-form">
+              <!--  <td align="right"></td>-->
+              <td align="left"><strong> <a href="contact.html"> ☎ Contact me </a> </strong></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+  <!--<hr> -->
+
+  <div class="containerForBox1" align="center">
+    <br><br><br>
+      <h2 class="boxTitle1">EDUCATION</h2>
+      <br>
+      <p><em>Univerzitet u Banjoj Luci- Elektrotehnicki Fakultet</em>
+        <strong>Softversko inzenjerstvo.</strong></p>
+      <p><em>Udemy-</em>
+        <strong>"The Complete 2022 Web Development Bootcamp."</strong></p>
+      <p><em>JU Medicinska Skola Banja Luka</em>
+        <strong>Medicinski tehnicar.</strong></p>
+      <br><br><br>
+  </div>
+  <hr>
+
+  <div class="containerForBox2" align="center">
+    <br><br><br>
+    <h2 class="boxTitle2">PREVIOUS WORK EXPERIENCE</h2>
+    <br>
 
     <table cellspacing="10">
       <!-- FORMIRANJE TABELE   -->
@@ -65,32 +93,35 @@
         </tr>
       </tbody>
     </table>
+    <br><br><br>
   </div>
-  <br>
+
   <hr>
-  <div>
-    <h3>Skills</h3>
+  <div class="containerForBox3" align="center">
+    <br><br><br>
+    <h2 class="boxTitle3">SKILLS</h2>
+    <br>
     <table cellspacing="10">
       <tr>
         <td>
           <table>
             <tr>
-              <td>C Programming</td>
-              <td>⭐⭐⭐ ⚝ ⚝</td>
+              <td>C++</td>
+              <td>⭐⭐⭐</td><!--⚝ ⚝ -->
+            </tr>
+            <tr>
+              <td>HTML & CSS</td>
+              <td>⭐⭐⭐</td>
             </tr>
             <tr>
               <td>Matemathics</td>
-              <td>⭐⭐⭐ ⚝ ⚝</td>
+              <td>⭐⭐⭐</td>
             </tr>
-
             <tr>
               <td>OOP</td>
-              <td>⭐⭐ ⚝ ⚝ ⚝</td>
+              <td>⭐⭐</td>
             </tr>
-            <tr>
-              <td>HTML</td>
-              <td>⭐⭐⭐ ⚝ ⚝</td>
-            </tr>
+
           </table>
         </td>
         <td>
@@ -115,13 +146,15 @@
         </td>
       </tr>
     </table>
+    <br><br><br>
   </div>
   <hr>
   <!--Table with links to other Pages
-  <br>
-  <hr> -->
+      <br>
+      <hr> -->
   <br><br>
   <p align="right">Copyright©2022 LeCode. All rights reserverd.</p>
+
 
 </body>
 

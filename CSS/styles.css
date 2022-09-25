@@ -1,5 +1,8 @@
 body {
-  background-color: #D8F2FD;
+  background-color:#d9ebf1;
+  .previousWork{
+    background-image: url("");
+  }
 }
 
 hr {
@@ -8,17 +11,49 @@ hr {
   border-color: grey;
   width: 8%;
 }
-tr.contact-form:hover {
+tr .contact-form:hover {
   background-color: #BFC9CA;}
 ul {
   list-style-type: none;
 }
 h1 {
-  color: #66BFBF;
+  color: #176F9E;
 }
 h3 {
-  color: #66BFBF;
+  color: #176F9E;
+}
+h2 {
+  color: #176F9E;
+
 }
 a{
   text-decoration: none;
+}
+.headingBox{
+  background-color: #d9ebf1;
+}
+.containerForBox1 {
+  background-color: #8ac1dd;
+  width: 100%;
+  border-radius: 50px;
+
+  }
+.containerForBox2 {
+  background-color: #8ac1dd;
+  width: 100%;
+  border-radius: 50px;
+}
+.containerForBox3 {
+  background-color: #8ac1dd;
+  width: 100%;
+  border-radius: 50px;
+}
+.boxTitle1 {
+  font-family: "Lucida Console", monospace;
+}
+.boxTitle2 {
+  font-family: "Lucida Console", monospace;
+}
+.boxTitle3 {
+  font-family: "Lucida Console", monospace;
 }
