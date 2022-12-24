@@ -1,8 +1,12 @@
+html{
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  background-color:#d9ebf1;
-  .previousWork{
-    background-image: url("");
-  }
+  position: relative; /* AKO DRUGOJ KLASI DAMO POSITION ABSOLUTE-> bice apsol. tj prva gore U ODNOSU NA PRETKA TJ BODY */
+  background-color: #d9ebf1;
+  margin: 0;
 }
 
 hr {
@@ -10,50 +14,114 @@ hr {
   border-width: 6px;
   border-color: grey;
   width: 8%;
+  position: relative;
+  margin: auto;
+
 }
+
 tr .contact-form:hover {
-  background-color: #BFC9CA;}
-ul {
-  list-style-type: none;
+  background-color: #BFC9CA;
 }
-h1 {
-  color: #176F9E;
-}
-h3 {
-  color: #176F9E;
-}
-h2 {
-  color: #176F9E;
 
+
+h1, h2, h3 {
+  color: #176F9E;
 }
-a{
-  text-decoration: none;
-}
-.headingBox{
+
+.headingBox {
   background-color: #d9ebf1;
+  margin-top:50px;
 }
-.containerForBox1 {
-  background-color: #8ac1dd;
-  width: 100%;
-  border-radius: 50px;
 
-  }
-.containerForBox2 {
+.containerForBox {
   background-color: #8ac1dd;
+  width: 65%;
+  border-radius: 60px;
+  /*
+  justify-content: center;   Ova 3 elementa centriraju div
+  display: flex;
+  align-items: center;*/
+}
+
+.headingBoxHoverClass:hover{
+  background-color: gold;
+}
+
+.boxTitle {
+  font-family: "Lucida Console", monospace;
+}
+
+
+/*nav ul
+{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}*/
+.navigationBar{
+  background-color:#0077b6;
+  background-position: center;
+
   width: 100%;
-  border-radius: 50px;
+  height: 55px;
+
+  margin:0;
+  padding: 0;
+  position: fixed;
+  text-align: right;
+  top: 0;
+
 }
-.containerForBox3 {
-  background-color: #8ac1dd;
-  width: 100%;
-  border-radius: 50px;
+.navigationBar ul{
+  display: inline-flex;
+  list-style: none;
+  margin: 0;
+
 }
-.boxTitle1 {
-  font-family: "Lucida Console", monospace;
+.navigationBar ul li {
+  width: 120px;
+  margin: 15px;
+  font: strong;
+
 }
-.boxTitle2 {
-  font-family: "Lucida Console", monospace;
+.navigationBar ul li a{
+  text-decoration: none;
+  color: black;
 }
-.boxTitle3 {
-  font-family: "Lucida Console", monospace;
+.contact_h2 {
+  top: 50px;
+}
+.table_previous_work {
+  position: absolute;
+}
+.heading_contact {
+  align-items:center;
+}
+.contact_logos{
+  list-style: none;
+}
+.contact_form{
+  justify-content: center;    /* 3 STAVKE ZA CENTRIRANJE DIVA*/
+  display: flex;
+  align-items: center;
+}
+.napoleon{
+  width: 45%;
+}
+.napoleon:hover{
+  width: 45%;
+  background-color: gold;
 }
