@@ -7,12 +7,28 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>📲 Contact me 📲</title>
-  <strong><a href="index.html">HOME 🏡</a></a></strong>
+
 </head>
 
 <body>
-  <h3>Contact forms</h3>
-  <p>You can contact me via the following chanels:</p>
+
+  <div class="navigationBar"> <!-- position is fixed ;  body position is relative-->
+    <ul>
+      <li> <a href="C:\Users\lekic\Documents\GitHub\CV\index.html">Home</a></li>
+      <li> <a href="C:\Users\lekic\Documents\GitHub\CV\previouswork.html">Previous</a> </li>
+      <li> <a href="C:\Users\lekic\Documents\GitHub\CV\hobbies.html">Hobbies</a></li>
+      <li> <a href="C:\Users\lekic\Documents\GitHub\CV\contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <br><br><br>
+
+  <div class="heading_contact">
+
+    <h2 class="contact_h2">Contact forms</h2>
+    <p>You can contact me via the following chanels:</p>
+
+  </div>
   <style media="screen">
     .fa {
       padding: 16px;
@@ -36,7 +52,7 @@
       opacity: 0.9;
     }
   </style>
-  <ul>
+  <ul class="contact_logos">
     <li><em><a href="https://www.facebook.com/zoran.z.davidovic" class="fa fa-facebook"></a></em></li><br>
     <li><em><a href="https://www.linkedin.com/in/jovica-lekic-ab3a161ba/" class="fa fa-linkedin"></a></em></li><br>
     <li><em><a href="https://github.com/Jovicaa">GitHub</a></em> </li><br>
@@ -45,21 +61,24 @@
   </ul>
   <hr>
 
-
+<div class="contact_form">
   <h3>Contact form:</h3>
 
   <table>
+    <tr><td>
     <form action="mailto: lekicj@outlook.com" method="post" enctype="text/plain">
       <label>Your Name:</label>
-      <input type="text" name="yourName" value=""><br>
+      <input type="text" name="yourName" value=""><br></td></tr>
+    <tr><td>
       <label>Your Email:</label>
-      <input type="email" name="yourEmail" value=""><br>
+      <input type="email" name="yourEmail" value=""><br><td></tr>
+    <tr><td>
       <textarea name="yourdMessage" rows="10" cols="31"></textarea><br>
-      <input type="submit" name=""><br>
+      <input type="submit" name=""><br></td></tr>
     </form>
 
-
   </table>
+</div>
 
 
 </body>
